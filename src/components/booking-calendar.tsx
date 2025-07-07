@@ -129,7 +129,7 @@ export function BookingCalendar() {
   const selectedTeamMember = teamMembers.find((m) => m.id.toString() === chosenMember)
 
   const checkBooking = () => {
-    const code: string = document.getElementById("code").value;
+    const code: string = (document.getElementById("code") as HTMLInputElement).value;
 
     if (!formData.name || !formData.email) {
       setBookCheckErr("Enter your name and email at the top");
