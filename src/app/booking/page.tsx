@@ -58,7 +58,7 @@ export default function BookingPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-300 mb-4">
-                  All payments are processed securely through PayPal. You'll be redirected to complete your payment
+                  All payments are processed securely through PayPal. You&apos;ll be redirected to complete your payment
                   after selecting your session.
                 </p>
                 <div className="flex items-center space-x-2">
