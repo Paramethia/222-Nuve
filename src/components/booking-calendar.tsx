@@ -85,8 +85,8 @@ export function BookingCalendar() {
       return
     }
 
-    const sessionType = sessionTypes.find((s) => s.id === chosenSession)
-    const member = teamMembers.find((m) => m.id.toString() === chosenMember)
+    //const sessionType = sessionTypes.find((s) => s.id === chosenSession)
+    //const member = teamMembers.find((m) => m.id.toString() === chosenMember)
 
     const bookingData = {
       name: formData.name,
