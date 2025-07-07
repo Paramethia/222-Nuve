@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Globalize } from './globalize';
 import { Navigation } from "../components/navigation";
 import { Footer } from "../components/footer";
