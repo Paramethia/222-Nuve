@@ -1,8 +1,9 @@
 "use client"
 
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { toast, ToastContainer } from 'react-toastify';
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image";
 import { Button } from "../components/ui/button"
 import { Menu, X } from "lucide-react"
@@ -10,8 +11,26 @@ import { Menu, X } from "lucide-react"
 export function Navigation() {
   const currentPage = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (currentPage === '/admin') {
+    toast.error("Nahhhh!", {
+      position: "top-left",
+      autoClose: 2700,
+      hideProgressBar: true,
+      closeOnClick: false,
+      pauseOnHover: false,
+      draggable: true,
+      theme: "dark",
+    });
+    setTimeout(() => { router.push('/') }, 3000 );
+  }
+  }, [currentPage])
 
   return (
+    <>
+    <ToastContainer className="mt-15"></ToastContainer>
     <nav className="bg-deep-slate border-b border-steel-blue sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
@@ -79,5 +98,6 @@ export function Navigation() {
         )}
       </div>
     </nav>
+    </>
   )
 }
