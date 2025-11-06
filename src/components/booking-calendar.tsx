@@ -457,7 +457,7 @@ export function BookingCalendar() {
                 </div>
               </div>
               
-              <p className={`${bookingRes ? '' : 'hidden'} text-xs text-deep-slate mt-4`}> Booking complete! Here's your booking code: <span className="border border-textured-navy p-1 rounded-lg text-textured-navy cursor-pointer hover:bg-accent-aqua" onClick={copyCode}>{bookingRes}</span></p>
+              <p className={`${bookingRes ? '' : 'hidden'} text-xs text-deep-slate mt-4`}> Booking complete! Here&apos;s your booking code: <span className="border border-textured-navy p-1 rounded-lg text-textured-navy cursor-pointer hover:bg-accent-aqua" onClick={copyCode}>{bookingRes}</span></p>
               <Button onClick={handleBooking} className="w-full mt-6 bg-aqua-dark text-textured-navy cursor-pointer hover:bg-aqua-darker" size="lg">
                 <CreditCard className="mr-2 h-5 w-5" />
                 Book & Pay with PayPal
