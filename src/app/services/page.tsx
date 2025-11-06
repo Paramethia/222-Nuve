@@ -88,7 +88,7 @@ export default function ServicesPage() {
           <h1 className="text-4xl font-bold text-gray-200 mb-4">Our Services</h1>
           <p className="text-lg text-gray-200 max-w-3xl mx-auto">
             We provide a full range of professional services designed to help you grow and succeed in the music
-            industry. From initial concept to final release, we're with you every step of the way.
+            industry. From initial concept to final release, we&apos;re with you every step of the way.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div>
-                  <p className="text-sm font-medium text-aqua-dark mb-2">What's included:</p>
+                  <p className="text-sm font-medium text-aqua-dark mb-2">What&apos;s included:</p>
                   <div className="flex flex-wrap gap-1">
                     {service.features.map((feature, idx) => (
                       <Badge key={idx} variant="secondary" className="border-gray-400 text-xs">

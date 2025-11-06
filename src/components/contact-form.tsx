@@ -39,10 +39,6 @@ export function ContactForm() {
     return realEmailDomains.includes(emailDomain);
   }
 
-  // Basic phone number regex: ^\+?\d{10,15}$
-  // More flexible phone number regex: ^(?:\+234|0)\d{10}$
-  // International phone numbers regex: ^\+?[0-9\s\-().]{7,20}$
-
   function phoneNumberCheck(phoneNumber: string){
     return /^\+?[0-9\s\-().]{7,20}$/.test(phoneNumber)
   }
@@ -77,7 +73,7 @@ export function ContactForm() {
       }
     }
 
-    setMessage("Thank you for your message! We'll get back to you within 2-4 hours.");
+    setMessage("Thank you for your message! We'll get back to you soon.");
     setTimeout(() => { setMessage("") }, 4400 );
     setColor("text-gray-300");
     setFormData({ name: "", email: "", phone: "", service: "", message: "" })
@@ -96,11 +92,11 @@ export function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="name" className="text-gray-300">Full name *</Label>
+              <Label htmlFor="name" className="text-gray-300">Full name <span className="text-accent-aqua">*</span></Label>
               <Input id="name" value={formData.name} maxLength={27} onChange={(e) => inputChange("name", e.target.value)} required className="bg-gray-300 border-gray-400 focus-visible:ring-0 focus-visible:ring-offset-0" />
             </div>
             <div>
-              <Label htmlFor="email" className="text-gray-300"> Email address *</Label>
+              <Label htmlFor="email" className="text-gray-300"> Email address <span className="text-accent-aqua">*</span></Label>
               <Input id="email" type="email" value={formData.email} maxLength={32} onChange={(e) => inputChange("email", e.target.value)} required className="bg-gray-300 border-gray-400 focus-visible:ring-0 focus-visible:ring-offset-0" />
             </div>
           </div>
@@ -130,7 +126,7 @@ export function ContactForm() {
           </div>
 
           <div>
-            <Label htmlFor="message" className="text-gray-300">Message *</Label>
+            <Label htmlFor="message" className="text-gray-300">Message <span className="text-accent-aqua">*</span></Label>
             <Textarea id="message" rows={6} maxLength={700} placeholder="Tell us about your project, goals, and how we can help you..." value={formData.message} onChange={(e) => inputChange("message", e.target.value)} required className="bg-gray-300 border-gray-400 text-deep-slate focus-visible:ring-0 focus-visible:ring-offset-0"/>
           </div>
 

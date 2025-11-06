@@ -75,7 +75,7 @@ export function Testimonials() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-300 mb-4">What Our Clients Say</h2>
           <p className="text-lg text-aqua-dark max-w-3xl mx-auto">
-            Don't just take our word for it - hear from the artists we've helped succeed
+            Don&apos;t just take our word for it &ndash; hear from the artists we&apos;ve helped succeed
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export function Testimonials() {
                   ))}
                 </div>
 
-                <p className="text-gray-200 mb-4 italic">"{testimonial.content}"</p>
+                <p className="text-gray-200 mb-4 italic">&quot;{testimonial.content}&quot;</p>
 
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">

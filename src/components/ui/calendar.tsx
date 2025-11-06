@@ -8,8 +8,6 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@radix-ui/react-icons';
 export type CalendarProps = React.ComponentProps<typeof DayPicker>
 
 function Calendar({
-  className,
-  classNames,
   showOutsideDays = true,
   ...props
 }: CalendarProps) {

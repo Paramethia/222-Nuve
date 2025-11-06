@@ -63,7 +63,6 @@ export function AdminDashboard() {
   const [teamMembers, setTeamMembers] = useState(teamMembersData)
   const [bookings] = useState(bookingsData)
   const [isAddMemberOpen, setIsAddMemberOpen] = useState(false)
-  const [editingMember, setEditingMember] = useState<any>(null)
   const [errorMsg, setErrorMsg] = useState<string>("");
   const [color, setColor] = useState<string>("text-red-700");
 

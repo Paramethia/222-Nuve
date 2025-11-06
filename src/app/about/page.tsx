@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gradient-to-r from-deep-slate via-steel-blue to-textured-navy py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-300 mb-4">About 222 Nuve™</h1>
+          <h1 className="text-4xl font-bold text-gray-300 mb-4">About 222 Nuve&trade;</h1>
           <p className="text-lg text-gray-200 max-w-3xl mx-auto">
             We are a collective of passionate music professionals dedicated to helping artists reach their full
             potential and turn their passion into a sustainable, successful career.
@@ -18,17 +18,15 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-300 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-200">
               <p>
-                At <strong>222 Nuve™</strong>, professionalism and passion go hand in hand. We started with a simple
+                At <strong>222 Nuve&trade;</strong>, professionalism and passion go hand in hand. We started with a simple
                 mission: to create real opportunities and connect artists with a network of experts and creatives from
                 across the musical spectrum.
               </p>
               <p>
-                Whether you're a singer, rapper, or even an opera vocalist — yes, seriously — there's a place for you at{" "}
-                <strong>222 Nuve™</strong>. We believe that every voice deserves to be heard and every artist deserves
-                professional support.
+                Whether you&apos;re a singer, rapper, or even an opera vocalist &ndash; yes, seriously &ndash; there&apos;s a place for you at <strong>222 Nuve&trade;</strong>. We believe that every voice deserves to be heard and every artist deserves professional support.
               </p>
               <p>
-                If you're ready to commit to your art, we're ready to help you shape your future in music. Our team
+                If you&apos;re ready to commit to your art, we&apos;re ready to help you shape your future in music. Our team
                 combines years of industry experience with cutting-edge technology to deliver results that exceed
                 expectations.
               </p>
@@ -81,7 +79,7 @@ export default function AboutPage() {
           <Music className="h-12 w-12 text-accent-aqua mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-gray-200 mb-4">Ready to Start Your Journey?</h2>
           <p className="text-lg text-gray-200 mb-6">
-            Join the growing community of artists who have chosen 222 Nuve™ to elevate their music.
+            Join the growing community of artists who have chosen 222 Nuve&trade; to elevate their music.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/booking" className="bg-accent-aqua text-textured-navy px-6 py-3 rounded-lg font-semibold hover:bg-accent-aqua/90 transition-colors">

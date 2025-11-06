@@ -1,6 +1,6 @@
 import { ContactForm } from "../../components/contact-form"
 import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card"
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import { MapPin, Phone, Mail } from "lucide-react"
 
 export default function ContactPage() {
   return (
@@ -54,9 +54,9 @@ export default function ContactPage() {
                 <CardTitle className="text-gray-300">Business Hours</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <p className="font-medium text-gray-300">Studio Hours</p>
-                <p className="text-sm text-gray-400">Mon-Fri: 9:00 AM - 10:00 PM</p>
-                <p className="text-sm text-gray-400">Sat-Sun: 10:00 AM - 8:00 PM</p>
+                <p className="font-medium text-gray-300">Studio Hours </p>
+                <p className="text-sm text-gray-400">Mon-Fri: 9:00 AM &ndash; 10:00 PM</p>
+                <p className="text-sm text-gray-400">Sat-Sun: 10:00 AM &ndash; 8:00 PM</p>
                 <div className="mt-4 p-3 bg-accent-aqua/30 rounded-lg">
                   <p className="text-sm text-gray-700">
                     <strong>24/7 Support:</strong> We offer round-the-clock support for urgent projects and technical

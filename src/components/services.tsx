@@ -79,13 +79,12 @@ export function Services() {
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-100 max-w-4xl mx-auto">
             Our goal is to help you reach your full potential and turn your passion into a sustainable, successful
-            career. At <strong>222 Nuve™</strong>, professionalism and passion go hand in hand. We're here to open
+            career. At <strong>222 Nuve™</strong>, professionalism and passion go hand in hand. We&apos;re here to open
             doors, create real opportunities, and connect you with a network of experts and creatives from across the
             musical spectrum.
           </p>
           <p className="text-lg text-gray-100 mt-4">
-            Whether you're a singer, rapper, or even an opera vocalist — yes, seriously — there's a place for you at{" "}
-            <strong>222 Nuve™</strong>.
+            Whether you&apos;re a singer, rapper, or even an opera vocalist &ndash; yes, seriously &ndash; there&apos;s a place for you at <strong>222 Nuve&trade;</strong>.
           </p>
         </div>
       </div>
