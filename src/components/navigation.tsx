@@ -28,6 +28,18 @@ export function Navigation() {
   }
   }, [currentPage])
 
+  function no() {
+    toast.error("No", {
+      position: "top-left",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: false,
+      pauseOnHover: false,
+      draggable: false,
+      theme: "dark",
+    })
+  }
+
   return (
     <>
     <ToastContainer className="mt-15"></ToastContainer>
@@ -58,7 +70,7 @@ export function Navigation() {
             <Link href="/contact" className={`${currentPage === '/contact' ? "text-accent-aqua italic" : "text-white"} hover:text-accent-aqua transition-colors`}>
               Contact
             </Link>
-            <Link href="/admin" className={`${currentPage === '/admin' ? "text-accent-aqua italic" : "text-white"} hover:text-accent-aqua transition-colors`}>
+            <Link href="" onClick={no} className={`${currentPage === '/admin' ? "text-accent-aqua italic" : "text-white"} hover:text-accent-aqua transition-colors`}>
               Admin
             </Link>
           </div>
