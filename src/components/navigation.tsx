@@ -97,12 +97,12 @@ export function Navigation() {
                 Services
               </Link>
               <Link href="/booking" className={`block rounded-lg px-3 py-2 ${currentPage === '/booking' ? "bg-gray-400" : "text-gray-300 border-b border-gray-400 hover:bg-gray-400"} transition-colors`}>
-                Book Session
+                Booking
               </Link>
               <Link href="/contact" className={`block rounded-lg px-3 py-2 ${currentPage === '/contact' ? "bg-gray-400" : "text-gray-300 border-b border-gray-400 hover:bg-gray-400"} transition-colors`}>
                 Contact
               </Link>
-              <Link href="/admin" className={`block rounded-lg px-3 py-2 ${currentPage === '/admin' ? "bg-gray-400" : "text-gray-300 border-b border-gray-400 hover:bg-gray-400"} transition-colors`}>
+              <Link href="" onClick={no} className={`block rounded-lg px-3 py-2 ${currentPage === '/admin' ? "bg-gray-400" : "text-gray-300 border-b border-gray-400 hover:bg-gray-400"} transition-colors`}>
                 Admin
               </Link>
             </div>
