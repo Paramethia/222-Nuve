@@ -36,7 +36,7 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-aqua-dark" />
                   <div>
                     <p className="font-medium text-aqua-dark">Phone</p>
-                    <p className="text-sm text-gray-400">+1 (555) 222-NUVE</p>
+                    <p className="text-sm text-gray-400">+27 82 456 7890</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
