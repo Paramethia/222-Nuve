@@ -43,7 +43,7 @@ export default function ContactPage() {
                   <MapPin className="h-5 w-5 text-aqua-dark" />
                   <div>
                     <p className="font-medium text-aqua-dark">Locations</p>
-                    <p className="text-sm text-gray-400">Los Angeles, Nashville, Atlanta, New York</p>
+                    <p className="text-sm text-gray-400">Durban, Bloemfontein, Vereeniging, Johannesburg</p>
                   </div>
                 </div>
               </CardContent>
@@ -55,8 +55,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <p className="font-medium text-gray-300">Studio Hours </p>
-                <p className="text-sm text-gray-400">Mon-Fri: 9:00 AM &ndash; 10:00 PM</p>
-                <p className="text-sm text-gray-400">Sat-Sun: 10:00 AM &ndash; 8:00 PM</p>
+                <p className="text-sm text-gray-400">Mon-Fri: 9:00 AM &ndash; 5:00 PM</p>
                 <div className="mt-4 p-3 bg-accent-aqua/30 rounded-lg">
                   <p className="text-sm text-gray-700">
                     <strong>24/7 Support:</strong> We offer round-the-clock support for urgent projects and technical
