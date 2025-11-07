@@ -48,7 +48,7 @@ export function BookingCalendar() {
 
   const fetchBookingData = async (code: string) => {
     try {
-      const response = await fetch(`https://222-nuve-server.onrender.com?code=${code}`);   
+      const response = await fetch(`https://two22-nuve-server.onrender.com?code=${code}`);   
       const result = await response.json();
 
       const now = new Date();
@@ -100,7 +100,7 @@ export function BookingCalendar() {
   useEffect(() => {
     // Ping server
     setTimeout(() => {
-      fetch("https://222-nuve-server.onrender.com/ping").then(() => console.log("Sever warmed up")).catch(() => console.warn("No response. Server might still be waking up"));
+      fetch("https://two22-nuve-server.onrender.com/ping").then(() => console.log("Sever ready")).catch(() => console.warn("No response. Server might still be waking up"));
     })
 
     // Check if already booked
@@ -182,7 +182,7 @@ export function BookingCalendar() {
     }
 
     try {
-      const response = await fetch(`https://222-nuve-server.onrender.com/find-booking?code=${code}`);
+      const response = await fetch(`https://two22-nuve-server.onrender.com/find-booking?code=${code}`);
 
       if (!response.ok) {
         toast.error("Booking not found", {
@@ -248,7 +248,7 @@ export function BookingCalendar() {
     };
 
     try {
-      const response = await fetch('https://222-nuve-server.onrender.com/booking', {
+      const response = await fetch('https://two22-nuve-server.onrender.com/booking', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(bookingData),
