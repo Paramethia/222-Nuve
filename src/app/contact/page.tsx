@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "222 Nuve™",
     images: [
       {
-        url: "/https://yougra.vercel.app/222_Nuve_logo.png",
+        url: "/https://222-nuve.vercel.app/222_Nuve_logo.png",
         width: 1200,
         height: 630,
       },

@@ -17,7 +17,7 @@ export const metadata = {
     description:
       "Discover our mission, team values, and how we help artists build sustainable music careers.",
     url: "https://222-nuve.vercel.app/about",
-    images: ["https://yougra.vercel.app/222_Nuve_logo.png"],
+    images: ["https://222-nuve.vercel.app/222_Nuve_logo.png"],
   },
   alternates: {
     canonical: "https://222-nuve.vercel.app/about",
