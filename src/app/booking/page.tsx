@@ -2,8 +2,43 @@ import { BookingCalendar } from "../../components/booking-calendar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card"
 import { FaPaypal } from 'react-icons/fa';
 
-export default function BookingPage() {
+export const metadata = {
+  title: "Book a Session | 222 Nuve™",
+  description:
+    "Schedule your mixing, mastering, vocal coaching, or consultation session with 222 Nuve™. Choose your preferred engineer, service type, and time slot with secure PayPal payment.",
+  keywords: [
+    "book session",
+    "music production booking",
+    "mixing session",
+    "mastering session",
+    "vocal coaching",
+    "222 Nuve",
+    "audio engineering booking",
+  ],
+  openGraph: {
+    title: "Book Your Music Session | 222 Nuve™",
+    description:
+      "Easily book mixing, mastering, vocal coaching, production, or consultation sessions with our expert team. Secure payments via PayPal.",
+    url: "https://222-nuve.vercel.app/booking",
+    siteName: "222 Nuve™",
+    images: [
+      {
+        url: "/https://yougra.vercel.app/222_Nuve_logo.png",
+        width: 512,
+        height: 512,
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://222-nuve.vercel.app/booking",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
+export default function BookingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-deep-slate via-steel-blue to-textured-navy py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

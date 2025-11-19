@@ -1,6 +1,29 @@
 import { Card, CardContent } from "../../components/ui/card"
 import { Music, Target, Users, Award } from "lucide-react"
 
+export const metadata = {
+  title: "About Us | 222 Nuve™",
+  description:
+    "Learn about 222 Nuve™ — a collective of passionate music professionals offering production, mixing, mastering, vocal coaching, and artist development.",
+  keywords: [
+    "about 222 Nuve",
+    "music production team",
+    "sound design experts",
+    "audio engineers",
+    "music career development",
+  ],
+  openGraph: {
+    title: "About 222 Nuve™",
+    description:
+      "Discover our mission, team values, and how we help artists build sustainable music careers.",
+    url: "https://222-nuve.vercel.app/about",
+    images: ["https://yougra.vercel.app/222_Nuve_logo.png"],
+  },
+  alternates: {
+    canonical: "https://222-nuve.vercel.app/about",
+  }
+};
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-deep-slate via-steel-blue to-textured-navy py-12">

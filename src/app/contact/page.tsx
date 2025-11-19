@@ -2,6 +2,41 @@ import { ContactForm } from "../../components/contact-form"
 import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card"
 import { MapPin, Phone, Mail } from "lucide-react"
 
+export const metadata = {
+  title: "Contact Us | 222 Nuve™",
+  description:
+    "Get in touch with 222 Nuve™ for music production, mixing, mastering, vocal coaching, and artist development inquiries. Available across Durban, Bloemfontein, Vereeniging, and Johannesburg.",
+  keywords: [
+    "contact 222 Nuve",
+    "music studio contact",
+    "audio engineer contact",
+    "music production inquiries",
+    "mixing and mastering contact",
+    "south africa music studio",
+  ],
+  openGraph: {
+    title: "Contact 222 Nuve™",
+    description:
+      "Reach out to the 222 Nuve™ team for project inquiries, booking support, or general questions. Email, phone, and South Africa studio locations available.",
+    url: "https://222-nuve.vercel.app/contact",
+    siteName: "222 Nuve™",
+    images: [
+      {
+        url: "/https://yougra.vercel.app/222_Nuve_logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://222-nuve.vercel.app/contact",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-deep-slate via-steel-blue to-textured-navy py-12">
