@@ -122,6 +122,13 @@ body {
   }
 }
 
+/* Hero section styling for mobile */
+
+@media (max-width: 450px) {
+  .m-translation { transform: translateY(-37px) }
+}
+
+
 /* Forms styling */
 
 input:focus, textarea:focus {
