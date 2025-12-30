@@ -125,7 +125,7 @@ body {
 /* Hero section styling for mobile */
 
 @media (max-width: 450px) {
-  .m-translation { transform: translateY(-37px) }
+  .m-translation { transform: translateY(-44px) }
 }
 
 

@@ -4,7 +4,7 @@ import { Calendar, Users } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-deep-slate via-steel-blue to-textured-navy text-white h-screen">
+    <section className="relative bg-gradient-to-br from-deep-slate via-steel-blue to-textured-navy text-white sm:h-screen">
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="m-translation relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="text-center">
